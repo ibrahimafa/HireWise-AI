@@ -1,0 +1,6 @@
+@HireWise_AI_HostAddress = http://localhost:5177
+
+GET {{HireWise_AI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
