@@ -60,8 +60,14 @@ AI-powered recruitment platform that helps recruiters screen candidates faster. 
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| POST | `/api/...` | Upload a resume and match it to a job description |
-| POST | `/api/...` | Generate interview questions for a candidate |
+| POST | `/api/Resume` | Upload a PDF resume and extract its text |
+| POST | `/api/Candidate` | Create a candidate |
+| GET | `/api/Candidate` | List candidates |
+| POST | `/api/Jobs` | Create a job posting |
+| GET | `/api/Jobs` | List job postings |
+| POST | `/api/Ai/analyze-resume` | Analyze a resume with Gemini |
+| POST | `/api/Ai/match-candidate` | Match a candidate against a job and return a match score |
+| POST | `/api/Ai/generate-interview-questions` | Generate tailored interview questions |
 
 
 ## How It Works
